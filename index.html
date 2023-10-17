@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Lovers</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              "work-sans": ["Work Sans", "sans"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <nav
+      class="flex justify-between md:px-20 py-5 text-xl px-6 font-work-sans bg-[#F3F6E6]"
+    >
+      <div class="flex gap-16">
+        <a class="font-dm-serif-display font-bold" href="/"> JSLovers </a>
+      </div>
+      <div>
+        <ul class="flex lg:gap-8 gap-3 font-poppins">
+          <span class="flex lg:gap-8 gap-4 text-lg">
+            <a href="#colors" class="hidden md:block"> Colors </a>
+            <a href="#links">
+              <li class="">Links</li>
+            </a>
+            <a href="#sponsorship">
+              <li class="">Sponsorship</li>
+            </a>
+          </span>
+        </ul>
+      </div>
+    </nav>
+    <div class="py-5 font-work-sans bg-[#85D2CD]">
+      <div class="flex flex-col justify-center items-center md:px-20 px-5">
+        <div class="mb-4">
+          <p class="text-center">
+            Welcome to <b>JSLovers</b>, the award-winning JavaScript meetup
+            group with chapters in Delhi, Bangalore, and Pune! We are a
+            passionate community of JavaScript enthusiasts who come together to
+            share knowledge, explore the latest trends, and collaborate on
+            exciting projects. Our meetups cover a wide range of topics, from
+            JavaScript fundamentals to advanced frameworks, front-end and
+            back-end development, and everything in between. We believe in the
+            power of networking and learning from fellow enthusiasts, making our
+            meetups a great place to connect with like-minded individuals.
+            JSLovers is proud to have received recognition from Meetup for our
+            outstanding contributions to the tech community. We're also grateful
+            to our sponsors, including Google, Microsoft, and many more, who
+            help make our events even more exciting and informative. Join us for
+            our upcoming events, workshops, and discussions to expand your
+            JavaScript skills and be part of a supportive community that shares
+            your love for coding. Let's code, learn, and grow together with
+            JSLovers!"
+          </p>
+        </div>
+        <div>
+          <img src="../assets/logo.png" alt="hero-img" class="pt-8 w-[410px]" />
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#F3F6E6] py-8" id="colors">
+      <div class="py-2">
+        <p class="font-work-sans font-semibold pl-8 text-2xl text-center">
+          Colors
+        </p>
+      </div>
+      <div class="flex items-center justify-center pt-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-black w-14 h-14"></div>
+            <p>black-600</p>
+            <p>#000000</p>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-[#383A48] w-14 h-14"></div>
+            <p>black-500</p>
+            <p>#383A48</p>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-[#505050] w-14 h-14"></div>
+            <p>black-400</p>
+            <p>#505050</p>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-[#676769] w-14 h-14"></div>
+            <p>black-300</p>
+            <p>#676769</p>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-[#939393] w-14 h-14"></div>
+            <p>black-200</p>
+            <p>#939393</p>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-[#CCCCCC] w-14 h-14"></div>
+            <p>black-100</p>
+            <p>#CCCCCC</p>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-[#AAC6FC] w-14 h-14"></div>
+            <p>primary-color</p>
+            <p>#AAC6FC</p>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-[#7FD6C2] w-14 h-14"></div>
+            <p>accent-colors</p>
+            <p>#7FD6C2</p>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-[#E0719E] w-14 h-14"></div>
+            <p>accent-colors</p>
+            <p>#E0719E</p>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <div class="rounded-full bg-[#F6A649] w-14 h-14"></div>
+            <p>accent-colors</p>
+            <p>#F6A649</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-8 pb-5 font-work-sans bg-[#F37155]" id="links">
+      <div class="py-2">
+        <p class="font-work-sans text-center font-semibold pl-8 text-3xl">
+          Links
+        </p>
+      </div>
+      <div class="flex justify-center items-center mt-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-20">
+          <div>
+            <a href="" target="_blank">
+              <div class="text-center">
+                <div class="flex flex-col items-center">
+                  <img src="../assets/twitter.png" alt="img" class="" />
+                  <p class="mt-2">Twitter</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="" target="_blank">
+              <div class="text-center">
+                <div class="flex flex-col items-center">
+                  <img src="../assets/yt.png" alt="img" class="" />
+                  <p class="mt-2">Youtube</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="" target="_blank">
+              <div class="text-center">
+                <div class="flex flex-col items-center">
+                  <img src="../assets/website.png" alt="img" class="" />
+                  <p class="mt-2">Website</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5 text-center">
+        <p class="font-work-sans font-semibold pl-8 text-3xl">Chapters</p>
+      </div>
+
+      <div class="flex justify-center items-center mt-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-12">
+          <a href="">
+            <div class="text-center">
+              <div class="flex flex-col items-center">
+                <img src="../assets/delhi.png" alt="img" class="" />
+                <p class="mt-2">Delhi</p>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="text-center">
+              <div class="flex flex-col items-center">
+                <img src="../assets/bang.png" alt="img" class="" />
+                <p class="mt-2">Bengaluru</p>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="text-center">
+              <div class="flex flex-col items-center">
+                <img src="../assets/mumbai.png" alt="img" class="" />
+                <p class="mt-2">Mumbai</p>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="text-center">
+              <div class="flex flex-col items-center">
+                <img src="../assets/pune.png" alt="img" class="" />
+                <p class="mt-2">Pune</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center mt-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <iframe
+            width="100%"
+            height="315"
+            class="rounded-lg"
+            src="https://www.youtube.com/embed/uAlOo3aDzZw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="rounded-lg"
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/P_lNs8pBRD8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="py-8 font-work-sans bg-[#F3F6E6]" id="sponsorship">
+      <div class="py-2">
+        <p class="font-work-sans font-semibold pl-8 text-2xl text-center">
+          Sponsorship
+        </p>
+      </div>
+      <div class="flex justify-center items-center px-8 pb-8">
+        <p class="text-xl mt-5">
+          If you want to discuss about Sponsorship contact - neha@jslovers.com,
+          blr@jslovers.com, delhi@jslovers.com, and pune@jslovers.com
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

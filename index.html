@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>JSLovers Branding Page</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="resources/style.css" />
         <script src="https://cdn.tailwindcss.com"></script>
         <script>
             tailwind.config = {
@@ -19,11 +19,12 @@
             };
         </script>
     </head>
+
     <body>
         <header class="flex bg-[#F3F6E6] justify-between py-5">
             <h1>
                 <a class="font-dm-serif-display font-bold" href="/">
-                    JSLovers (branding)
+                    JSLovers
                 </a>
             </h1>
             <nav>
@@ -44,12 +45,14 @@
             </nav>
         </header>
         <section class="py-5 font-work-sans">
-          <h2 class="font-work-sans font-semibold pl-8 text-3xl text-center">About JSLovers</h2>
+            <h2 class="font-work-sans font-bold pl-8 text-3xl text-center">
+                About JSLovers
+            </h2>
             <div
                 class="flex flex-col justify-center items-center md:px-20 px-5"
             >
                 <div class="mb-4">
-                    <p class="text-center">
+                    <p class="text-justify leading-8">
                         Welcome to <b>JSLovers</b>, the award-winning JavaScript
                         meetup group with chapters in Delhi, Bangalore, and
                         Pune! We are a passionate community of JavaScript
@@ -71,40 +74,105 @@
                         supportive community that shares your love for coding.
                         Let's code, learn, and grow together with JSLovers!"
                     </p>
+                    <h2 class="text-3xl py-4 mt-4 font-bold text-center">
+                        Watch Talks About JSLovers
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <iframe
+                            width="100%"
+                            height="315"
+                            class="rounded-lg"
+                            src="https://www.youtube.com/embed/uAlOo3aDzZw"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
+                        <iframe
+                            class="rounded-lg"
+                            width="100%"
+                            height="315"
+                            src="https://www.youtube.com/embed/P_lNs8pBRD8"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
                 </div>
-                <div>
+                <!-- <div>
                   <p>Please use our logo (check the terms and conditions)</p>
                     <img
                         src="../assets/logo.png"
                         alt="JSLovers"
                         class="pt-8 w-[410px]"
                     />
-                </div>
+                </div> -->
+            </div>
+        </section>
+        <section class="py-8 pb-5 font-work-sans bg-[#F37155]" id="links">
+            <h2 class="font-work-sans text-center font-semibold pl-8 text-3xl">
+                Find more about JSLovers
+            </h2>
 
-            <div class="flex items-center justify-center mt-16">
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <iframe
-                      width="100%"
-                      height="315"
-                      class="rounded-lg"
-                      src="https://www.youtube.com/embed/uAlOo3aDzZw"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                  ></iframe>
-                  <iframe
-                      class="rounded-lg"
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/P_lNs8pBRD8"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                  ></iframe>
-              </div>
-          </div>
+            <div class="flex justify-center items-center mt-8 gap-8">
+                <a
+                    href="https://twitter.com/jslovers_del"
+                    target="_blank"
+                    class="hover:text-white"
+                >
+                    <img
+                        src="../assets/twitter.png"
+                        alt="jslovers twitter logo"
+                        class=""
+                    />
+                    <p class="mt-2 underline">Twitter</p>
+                </a>
+
+                <a href="" target="_blank" class="hover:text-white">
+                    <img src="../assets/yt.png" alt="jslovers youtube logo" />
+                    <p class="mt-2 underline">Youtube</p>
+                </a>
+
+                <a href="" target="_blank" class="hover:text-white">
+                    <img
+                        src="../assets/website.png"
+                        alt="jslovers twitter website"
+                    />
+                    <p class="mt-2 underline">Website</p>
+                </a>
+            </div>
+        </section>
+        <section class="py-8 pb-5 font-work-sans" id="chapters">
+            <h2 class="font-work-sans text-center font-semibold pl-8 text-3xl">
+                JSLovers's Chapters
+            </h2>
+
+            <div class="flex justify-center items-center mt-8 gap-8">
+                <a href="">
+                    <img
+                        src="../assets/delhi.png"
+                        alt="delhi jslovers"
+                        class=""
+                    />
+                    <p class="mt-2">Delhi/NCR</p>
+                </a>
+                <a href="">
+                    <img
+                        src="../assets/bengaluru.png"
+                        alt="Bengaluru jslovers"
+                    />
+                    <p class="mt-2">Bengaluru</p>
+                </a>
+                <a href="">
+                    <img src="../assets/mumbai.png" alt="Mumbai JSLovers" />
+                    <p class="mt-2">Mumbai</p>
+                </a>
+                <a href="">
+                    <img src="../assets/pune.png" alt="Pune JSLovers" />
+                    <p class="mt-2">Pune</p>
+                </a>
             </div>
         </section>
         <section class="bg-[#F3F6E6] py-8" id="colors">
@@ -113,7 +181,7 @@
                     class="font-work-sans font-semibold pl-8 text-2xl text-center"
                 >
                     Colors
-            </h2>
+                </h2>
             </div>
             <div class="flex items-center justify-center pt-8">
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -189,122 +257,8 @@
                     </div>
                 </div>
             </div>
-          </section>
-        <section class="py-8 pb-5 font-work-sans bg-[#F37155]" id="links">
-            <div class="py-2">
-                <h2
-                    class="font-work-sans text-center font-semibold pl-8 text-3xl"
-                >
-                    Links
-            </h2>
-            </div>
-            <div class="flex justify-center items-center mt-8">
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-20">
-                    <div>
-                        <a href="" target="_blank">
-                            <div class="text-center">
-                                <div class="flex flex-col items-center">
-                                    <img
-                                        src="../assets/twitter.png"
-                                        alt="img"
-                                        class=""
-                                    />
-                                    <p class="mt-2">Twitter</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="" target="_blank">
-                            <div class="text-center">
-                                <div class="flex flex-col items-center">
-                                    <img
-                                        src="../assets/yt.png"
-                                        alt="img"
-                                        class=""
-                                    />
-                                    <p class="mt-2">Youtube</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="" target="_blank">
-                            <div class="text-center">
-                                <div class="flex flex-col items-center">
-                                    <img
-                                        src="../assets/website.png"
-                                        alt="img"
-                                        class=""
-                                    />
-                                    <p class="mt-2">Website</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <div class="pt-5 text-center">
-                <h2 class="font-work-sans font-semibold pl-8 text-3xl">
-                    JSLovers's Chapters
-                </h2>
-            </div>
-
-            <div class="flex justify-center items-center mt-8">
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-12">
-                    <a href="">
-                        <div class="text-center">
-                            <div class="flex flex-col items-center">
-                                <img
-                                    src="../assets/delhi.png"
-                                    alt="delhi jslovers"
-                                    class=""
-                                />
-                                <p class="mt-2">Delhi/NCR</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="text-center">
-                            <div class="flex flex-col items-center">
-                                <img
-                                    src="../assets/bengaluru.png"
-                                    alt="Bengaluru jslovers"
-                                    
-                                />
-                                <p class="mt-2">Bengaluru</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="text-center">
-                            <div class="flex flex-col items-center">
-                                <img
-                                    src="../assets/mumbai.png"
-                                    alt="Mumbai JSLovers"
-                                    
-                                />
-                                <p class="mt-2">Mumbai</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="text-center">
-                            <div class="flex flex-col items-center">
-                                <img
-                                    src="../assets/pune.png"
-                                    alt="Pune JSLovers"
-                                   
-                                />
-                                <p class="mt-2">Pune</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-        <div class="py-8 font-work-sans bg-[#F3F6E6]" id="sponsorship">
+        </section>
+        <div class="py-8 font-work-sans" id="sponsorship">
             <div class="py-2">
                 <p
                     class="font-work-sans font-semibold pl-8 text-2xl text-center"
@@ -319,6 +273,9 @@
                 </p>
             </div>
         </div>
-        <footer class="text-center py-4 text-small">Copyright 2023-2024 | <a href="#">Terms and Conditions</a> | <a href="#">Code of conduct</a> </footer>
+        <footer class="text-center py-4 text-small">
+            Copyright 2023-2024 | <a href="#">Terms and Conditions</a> |
+            <a href="#">Code of conduct</a>
+        </footer>
     </body>
 </html>

@@ -15,9 +15,8 @@
 **Checklist:**
 
 - [ ] The code follows the project's coding standards and conventions.
-- [ ] All tests have passed.
+- [ ] Have you self-tested the changes?
 - [ ] Documentation has been updated, if necessary.
-- [ ] The PR has been reviewed and approved by at least one other contributor.
 - [ ] Any conflicts with the base branch have been resolved.
 
 **Additional Comments:**

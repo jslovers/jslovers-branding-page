@@ -14,7 +14,6 @@ Welcome to the JSLovers branding page. This webpage is to share about:
 
 6. Brand Guidelines
 
-
 If you want to use JSLovers's Logo, intro, or any property. Please read our terms and conditions.
 
 ## Found something need to be fixed or update?
@@ -29,14 +28,18 @@ We are using the following tech:
 
 2. We are using Tailwind for styling
 
+3. npm pacakage manager for managing tailwind css
+
 ### Dev enviornment setup:
 
 1. Fork the repo
 
-2. Open `index.html` in your favourite browser
+2. Run `npm run dev || yarn run dev` for any css change in input.css
 
-3. Please make sure to format, and validate code before raising the PR
+3. Open `index.html` in your favourite browser
 
-4. Please make sure you have raised an issues before starting working on the code
+4. Please make sure to format, and validate code before raising the PR
+
+5. Please make sure you have raised an issues before starting working on the code
 
 ## Thank you!!

@@ -1,490 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>JSLovers Branding Page</title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="resources/style.css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script>
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        fontFamily: {
-                            "work-sans": ["Work Sans", "sans"],
-                        },
-                    },
-                },
-            };
-        </script>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSLovers :: Home</title>
 
-    <body>
-        <header class="flex bg-[#194d9f] justify-between py-5">
-            <h1 class="text-center">
-                <a class="font-dm-serif-display font-bold text-white" href="/">
-                    <img
-                        src="./resources/assets/jsloversLogo.png"
-                        alt="jslovers homepage"
-                        width="100"
-                    />
-                    <span>JSLovers</span>
-                </a>
-            </h1>
-            <nav>
-                <ul class="font-poppins text-xl flex gap-4">
-                    <li>
-                        <a
-                            href="#"
-                            class="hover:no-underline underline text-white"
-                            >About
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a
-                            href="#chapters"
-                            class="hover:no-underline underline text-white"
-                        >
-                            Chapters
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#sponsors"
-                            class="hover:no-underline underline text-white"
-                        >
-                            Sponsors
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#team"
-                            class="hover:no-underline underline text-white"
-                        >
-                            Team
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#creatives"
-                            class="hover:no-underline underline text-white"
-                        >
-                            Creatives
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section class="container mx-auto">
-            <section class="py-5 font-work-sans">
-                <h2 class="font-work-sans font-bold pl-8 text-3xl text-center">
-                    About JSLovers
-                </h2>
-                <div
-                    class="flex flex-col justify-center items-center md:px-20 px-5"
-                >
-                    <div class="mb-4">
-                        <p class="text-justify leading-8">
-                            Welcome to <b>JSLovers</b>, the
-                            <a href="#">award-winning</a> JavaScript meetup
-                            group with chapters in <a href="#">Delhi</a>,<a
-                                href="#"
-                                >Bangalore</a
-                            >, and <a href="#">Pune</a>! We are a passionate
-                            community of JavaScript enthusiasts who come
-                            together to share knowledge, explore the latest
-                            trends, and collaborate on exciting projects.
-                        </p>
-                        <p class="text-justify leading-8 mt-4">
-                            Our meetups cover a wide range of topics, from
-                            JavaScript fundamentals to advanced frameworks,
-                            front-end and back-end development, and everything
-                            in between. We believe in the power of networking
-                            and learning from fellow enthusiasts, making our
-                            meetups a great place to connect with like-minded
-                            individuals. JSLovers is proud to have received
-                            recognition from Meetup for our outstanding
-                            contributions to the tech community.
-                        </p>
-                        <p class="text-justify leading-8 mt-4">
-                            We're also grateful to our sponsors, including
-                            Google, Microsoft, and many more, who help make our
-                            events even more exciting and informative. Join us
-                            for our upcoming events, workshops, and discussions
-                            to expand your JavaScript skills and be part of a
-                            supportive community that shares your love for
-                            coding. Let's code, learn, and grow together with
-                            JSLovers!"
-                        </p>
-                        <h2 class="text-3xl py-4 mt-4 font-bold text-center">
-                            Watch Talks About JSLovers
-                        </h2>
-
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <iframe
-                                width="100%"
-                                height="315"
-                                class="rounded-lg"
-                                src="https://www.youtube.com/embed/uAlOo3aDzZw"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen
-                            ></iframe>
-                            <iframe
-                                class="rounded-lg"
-                                width="100%"
-                                height="315"
-                                src="https://www.youtube.com/embed/P_lNs8pBRD8"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </div>
-                    <!-- <div>
-                <p>Please use our logo (check the terms and conditions)</p>
-                  <img
-                      src="../assets/logo.png"
-                      alt="JSLovers"
-                      class="pt-8 w-[410px]"
-                  />
-              </div> -->
-                </div>
-            </section>
-        </section>
-        <section
-            class="py-8 pb-5 font-work-sans bg-[#F37155] text-center"
-            id="connect"
-        >
-            <h2 class="font-work-sans font-semibold mb-5 text-3xl">
-                Connect with us
-            </h2>
-            <a
-                href="https://twitter.com/jslovers_del"
-                target="_blank"
-                class="hover:text-white inline-block mr-4"
+    <!-- Meta SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <a name="top"></a>
+    <a href="#top" class="fixed bottom-4 right-4 z-50">
+      <i data-feather="arrow-up-circle" class="text-purple-600 text-2xl"></i>
+    </a>
+    <!-- Navbar -->
+    <header class="fixed w-full">
+      <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+          <a href="#" class="flex items-center">
+            <img src="./resources/assets/logo.png" class="h-6 mr-3 sm:h-9" alt="JSLovers Logo" />
+            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+              >JSLovers</span
             >
-                <img
-                    src="resources/assets/twitter.png"
-                    alt="jslovers twitter logo"
-                    class="hover:invert mx-auto"
-                />
-                <p class="mt-2 underline">Twitter</p>
-            </a>
-
+          </a>
+          <div class="flex items-center lg:order-2">
             <a
-                href=""
-                target="_blank"
-                class="hover:text-white inline-block mr-4"
+              href="https://www.meetup.com/jslovers/"
+              target="_blank"
+              class="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-red-600 dark:hover:bg-red-700 focus:outline-none dark:focus:ring-red-800"
+              >Join us on Meetup</a
             >
-                <img
-                    src="resources/assets/yt.png"
-                    alt="jslovers youtube logo"
-                    class="hover:invert mx-auto"
-                />
-                <p class="mt-2 underline">Youtube</p>
-            </a>
-
-            <a href="" target="_blank" class="hover:text-white inline-block">
-                <img
-                    src="resources/assets/website.png"
-                    alt="jslovers twitter website"
-                    class="hover:invert mx-auto"
-                />
-                <p class="mt-2 underline">Website</p>
-            </a>
-        </section>
-        <section class="py-8 pb-5 font-work-sans" id="chapters">
-            <h2 class="font-work-sans text-center font-semibold pl-8 text-3xl">
-                JSLovers's Chapters
-            </h2>
-
-            <div class="flex justify-center items-center mt-8 gap-8">
+            <button
+              data-collapse-toggle="mobile-menu-2"
+              type="button"
+              class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="mobile-menu-2"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <svg
+                class="hidden w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1"
+            id="mobile-menu-2"
+          >
+            <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+              <li>
                 <a
-                    href="https://www.meetup.com/jslovers"
-                    target="_blank"
-                    class="inline-block text-center"
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                  aria-current="page"
+                  >Home</a
                 >
-                    <img
-                        src="resources/assets/india-gate.png"
-                        alt="delhi jslovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2" >Delhi/NCR</p>
-                </a>
-                <a href="" class="inline-block text-center">
-                    <img
-                        src="resources/assets/bangalore.png"
-                        alt="Bengaluru jslovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2">Bengaluru</p>
-                </a>
-                <a href="" class="inline-block text-center">
-                    <img
-                        src="resources/assets/mumbai.png"
-                        alt="Mumbai JSLovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2">Mumbai</p>
-                </a>
-                <a href="" class="inline-block text-center">
-                    <img
-                        src="resources/assets/bulding.png"
-                        alt="Pune JSLovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2">Pune</p>
-                </a>
-                <a href="" class="inline-block text-center">
-                    <img
-                        src="resources/assets/big-ben.png"
-                        alt="Pune JSLovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2">London</p>
-                </a>
-            </div>
-        </section>
-        <section class="bg-[#F3F6E6] py-8" id="sponsors">
-            <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
-                Our Sponsors
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#chapters"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >Chapters</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#sponsors"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >Sponsors</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >Team</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Navbar -->
+
+    <!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto md:gap-8 xl:gap-0 md:py-16 md:grid-cols-12 md:pt-28"
+      >
+        <div class="place-self-center md:col-span-7 mb-8 md:mb-0">
+          <h1
+            class="text-center md:text-left max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"
+          >
+            Welcome to <br />JS Lovers Community!
+          </h1>
+          <p
+            class="text-center md:text-left mt-10 max-w-2xl mb-6 font-light text-gray-500 md:mb-8 md:text-md md:text-xl dark:text-gray-400"
+          >
+            Welcome to JSLovers, the award-winning JavaScript meetup group with chapters in
+            Delhi,Bangalore, and Pune! We are a passionate community of JavaScript enthusiasts who
+            come together to share knowledge, explore the latest trends, and collaborate on exciting
+            projects.
+          </p>
+
+          <div class="sm:space-y-4 md:space-y-0 flex gap-2 sm:space-x-4">
+            <a
+              href="https://twitter.com/jslovers_del"
+              target="_blank"
+              class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <i class="text-sky-600" data-feather="twitter"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/@JSLovers/featured"
+              target="_blank"
+              class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <i class="text-red-600" data-feather="youtube"></i>
+            </a>
+            <a
+              href="https://jslovers.com/"
+              target="_blank"
+              class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <i class="text-orange-600" data-feather="globe"></i>
+            </a>
+            <a
+              href="https://www.meetup.com/jslovers/"
+              target="_blank"
+              class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <i class="text-red-600" data-feather="users"></i>
+            </a>
+          </div>
+        </div>
+        <div class="mt-8 md:mt-0 md:col-span-5 md:flex">
+          <iframe
+            class="rounded-md"
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/P_lNs8pBRD8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-gray-50 dark:bg-gray-800" id="about">
+      <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 md:space-y-20 md:py-24 md:px-6">
+        <!-- Row -->
+        <div class="items-center gap-8 md:grid md:grid-cols-1 xl:gap-16">
+          <div class="text-gray-500 sm:text-md dark:text-gray-400">
+            <h2
+              class="text-center md:text-left mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+            >
+              About Us
             </h2>
-            <p class="text-l text-center">
-                We are looking for venues, goodies, F&B, and speakers
-                sponsors.<br />
-                If you would like to support us please drop a message to
-                <a href="mailto:neha@jslovers.com" class="underline"
-                    >neha@jslovers.com</a
-                >
+            <p class="text-center md:text-left mb-8 font-light md:text-xl">
+              Our meetups cover a wide range of topics, from JavaScript fundamentals to advanced
+              frameworks, front-end and back-end development, and everything in between. We believe
+              in the power of networking and learning from fellow enthusiasts, making our meetups a
+              great place to connect with like-minded individuals. JSLovers is proud to have
+              received recognition from Meetup for our outstanding contributions to the tech
+              community.
             </p>
 
-            <div class="flex items-center justify-center pt-8">
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">Microsoft</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">Expedia</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">Google</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">Ticketmaster</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">Naggaro</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">Geekyants</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">Thoughtworks</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">LBB</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">Hotstar</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/jsloversLogo.png"
-                            alt="jslovers homepage"
-                            width="100"
-                        />
-
-                        <h4 class="mt-2 underline">91Springboard</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <p>and a lot more</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- <section class="bg-[#F3F6E6] py-8" id="colors">
-          <div class="py-2">
-              <h2
-                  class="font-work-sans font-semibold pl-8 text-2xl text-center"
-              >
-                  Colors
-              </h2>
+            <p class="text-center md:text-left mb-8 font-light md:text-xl">
+              We're also grateful to our sponsors, including Google, Microsoft, and many more, who
+              help make our events even more exciting and informative. Join us for our upcoming
+              events, workshops, and discussions to expand your JavaScript skills and be part of a
+              supportive community that shares your love for coding. Let's code, learn, and grow
+              together with JSLovers!"
+            </p>
           </div>
-          <div class="flex items-center justify-center pt-8">
-              <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-black w-14 h-14"></div>
-                      <p>black-600</p>
-                      <p>#000000</p>
-                  </div>
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-[#383A48] w-14 h-14"></div>
-                      <p>black-500</p>
-                      <p>#383A48</p>
-                  </div>
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-[#505050] w-14 h-14"></div>
-                      <p>black-400</p>
-                      <p>#505050</p>
-                  </div>
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-[#676769] w-14 h-14"></div>
-                      <p>black-300</p>
-                      <p>#676769</p>
-                  </div>
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-[#939393] w-14 h-14"></div>
-                      <p>black-200</p>
-                      <p>#939393</p>
-                  </div>
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-[#CCCCCC] w-14 h-14"></div>
-                      <p>black-100</p>
-                      <p>#CCCCCC</p>
-                  </div>
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-[#AAC6FC] w-14 h-14"></div>
-                      <p>primary-color</p>
-                      <p>#AAC6FC</p>
-                  </div>
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-[#7FD6C2] w-14 h-14"></div>
-                      <p>accent-colors</p>
-                      <p>#7FD6C2</p>
-                  </div>
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-[#E0719E] w-14 h-14"></div>
-                      <p>accent-colors</p>
-                      <p>#E0719E</p>
-                  </div>
-                  <div
-                      class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                  >
-                      <div class="rounded-full bg-[#F6A649] w-14 h-14"></div>
-                      <p>accent-colors</p>
-                      <p>#F6A649</p>
-                  </div>
-              </div>
+        </div>
+      </div>
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-white dark:bg-gray-900" id="chapters">
+      <div
+        class="items-center max-w-screen-xl px-4 py-8 mx-auto md:grid md:grid-cols-4 md:gap-16 xl:gap-24 md:py-24 md:px-6"
+      >
+        <div class="col-span-4 mb-8">
+          <h2
+            class="text-center md:text-left font-extrabold text-3xl text-purple-600 dark:text-purple-500"
+          >
+            Chapters We Run
+          </h2>
+          <h2
+            class="text-center md:text-left mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
+          >
+            We have a strong community of 500+ JSLovers on meetup
+          </h2>
+          <div
+            class="space-y-4 sm:flex flex flex-wrap gap-2 sm:space-y-0 sm:space-x-4 justify-center mt-16"
+          >
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center w-auto px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/india-gate.png" alt="Delhi" class="w-32 h-32" />
+              <p class="text-md font-medium text-purple-600 dark:text-purple-500">Delhi</p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center w-auto px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/bangalore.png" alt="Delhi" class="w-32 h-32" />
+              <p class="text-md font-medium text-purple-600 dark:text-purple-500">Bangalore</p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center w-auto px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/bulding.png" alt="Delhi" class="w-32 h-32" />
+              <p class="text-md font-medium text-purple-600 dark:text-purple-500">Pune</p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center w-auto px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/mumbai.png" alt="Delhi" class="w-32 h-32" />
+              <p class="text-md font-medium text-purple-600 dark:text-purple-500">Mumbai</p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center w-auto px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/big-ben.png" alt="Delhi" class="w-32 h-32" />
+              <p class="text-md font-medium text-purple-600 dark:text-purple-500">London</p>
+            </a>
           </div>
-      </section> -->
-        <div class="py-8 font-work-sans" id="team">
-            <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
-                Our Team
-            </h2>
         </div>
-        <div class="py-8 font-work-sans" id="creatives">
-            <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
-                Social Creatives
-            </h2>
-
-            <a href="">Logos</a>
-            <a href="">Slides</a>
-            <a href="">Posters</a>
+      </div>
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-gray-50 dark:bg-gray-800" id="sponsors">
+      <div class="max-w-screen-xl px-4 py-8 mx-auto text-center md:py-24 md:px-6">
+        <div class="max-w-screen-md mx-auto mb-8 text-center md:mb-12">
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+            Sponsors
+          </h2>
+          <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            We are looking for venues, goodies, F&B, and speakers sponsors. If you would like to
+            support us please drop a message to
+            <a
+              href="mailto:neha@jslovers.com "
+              class="text-purple-600 dark:text-purple-500 hover:underline"
+            >
+              neha@jslovers.com</a
+            >
+          </p>
+          <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center mt-16">
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-1/4 w-full hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/microsoft.png" alt="Delhi" class="w-16 h-16 p-2" />
+              <p class="text-md m-4 font-medium text-purple-600 dark:text-purple-500">Microsoft</p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-1/4 w-full hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/expedia.png" alt="Delhi" class="w-16 h-16 p-2" />
+              <p class="text-md m-4 font-medium text-purple-600 dark:text-purple-500">Expedia</p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-1/4 w-full hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/google.png" alt="Delhi" class="w-16 h-16 p-2" />
+              <p class="text-md m-4 font-medium text-purple-600 dark:text-purple-500">Google</p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-1/4 w-full hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/hotstar.png" alt="Delhi" class="w-16 h-16 p-2" />
+              <p class="text-md m-4 font-medium text-purple-600 dark:text-purple-500">Hotstar</p>
+            </a>
+          </div>
+          <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center mt-16">
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-1/4 w-full hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/geeky.png" alt="Delhi" class="w-16 h-16 p-2" />
+              <p class="text-md m-4 font-medium text-purple-600 dark:text-purple-500">Geekyants</p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-1/4 w-full hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/thoughtworks.jpeg" alt="Delhi" class="w-16 h-16 p-2" />
+              <p class="text-md m-4 font-medium text-purple-600 dark:text-purple-500">
+                Thoughtworks
+              </p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-1/4 w-full hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/naggaro.png" alt="Delhi" class="w-16 h-16 p-2" />
+              <p class="text-md m-4 font-medium text-purple-600 dark:text-purple-500">Naggaro</p>
+            </a>
+            <a
+              href="#"
+              class="inline-flex flex-col items-center justify-center px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-md sm:w-1/4 w-full hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              <img src="./resources/assets/ticket.png" alt="Delhi" class="w-16 h-16 p-2" />
+              <p class="text-md m-4 font-medium text-purple-600 dark:text-purple-500">
+                Ticketmaster
+              </p>
+            </a>
+          </div>
         </div>
+      </div>
+    </section>
+    <!-- End block -->
 
-        <footer class="text-center py-4 text-small bg-[#d5e1f5]">
-            Copyright 2023-2024 |
-            <a href="#" class="underline">Terms and Conditions</a> |
-            <a href="codeofconduct.html" target="_blank" class="underline">Code of conduct</a>
-        </footer>
-    </body>
+    <footer class="bg-white dark:bg-gray-800">
+      <div class="max-w-screen-xl p-4 py-6 mx-auto md:py-16 md:p-8">
+        <div class="text-center">
+          <a
+            href="#"
+            class="flex flex-col items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
+          >
+            <img src="./resources/assets/logo.png" class="h-6 mr-3 sm:h-9" alt="JsLovers" />
+            JsLovers
+          </a>
+
+          <span
+            class="flex justify-center items-center gap-2 text-sm text-center text-gray-500 dark:text-gray-400"
+          >
+            <p>Built with</p>
+            <i data-feather="heart" class="fill-red-600 text-red-600 text-xs"></i>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>

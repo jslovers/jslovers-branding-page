@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Welcome to the jslovers project! We appreciate your interest in contributing. Before you get started, please take a moment to review these guidelines to ensure a smooth and productive collaboration.
+Welcome to the JSLovers project! We appreciate your interest in contributing. Before you get started, please take a moment to review these guidelines to ensure a smooth and productive collaboration.
 
 ## Code of Conduct
 
@@ -19,7 +19,7 @@ We are using Tailwind for styling
 2. **Clone the Repository**: Clone your forked repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/jslovers.git
+   git clone https://github.com/your-username/jslovers-branding-page.git
    ```
 
 3. **Create a Branch**: Before making any changes, create a new branch to work on. Please use a descriptive name for your branch.
@@ -52,7 +52,7 @@ We are using Tailwind for styling
 
 ## Coding Standards
 
-Please follow the coding standards and guidelines specific to the "jslovers" project. If you're unsure about any coding standards, you can check the project's `CONTRIBUTING.md` or ask for clarification in your pull request or by reaching out to maintainers.
+Please follow the coding standards and guidelines specific to the "JSLovers" project. If you're unsure about any coding standards, you can check the project's `CONTRIBUTING.md` or ask for clarification in your pull request or by reaching out to maintainers.
 
 ## Issues
 
@@ -64,9 +64,7 @@ If you have questions or need assistance, you can reach out to the project maint
 
 ## Attribution
 
-Contributors will be credited for their contributions in the project's README or a dedicated contributors file.
-
-Thank you for considering contributing to "jslovers." Your contributions are invaluable to the project's growth and success!
+Thank you for considering contributing to "JSLovers". Your contributions are invaluable to the project's growth and success!
 
 Remember to customize the guidelines to suit the specific needs and conventions of your project, including details on coding standards, testing procedures, and any other project-specific information.
 

@@ -6,12 +6,47 @@
 **Summary:**
 [Provide a brief description of the issue.]
 
+<details>
+<summary>**Bug Details (Expand for Bug Reports)**</summary>
+
+**Steps to Reproduce:**
+
+1. 
+2. 
+3. 
+
 **Expected Behavior:**
-[Explain what you expected to happen.]
+
+...
 
 **Actual Behavior:**
-[Explain what actually happened.]
 
+...
+
+**Environment:**
+
+- Operating System:
+- Browser:
+- ...
+
+</details>
+
+<details>
+<summary>**Feature Request Details (Expand for Feature Requests)**</summary>
+
+**Description of the Feature:**
+
+...
+
+**Why is this Feature Requested:**
+
+...
+
+**Proposed Solution:**
+
+...
+
+</details>
 ## Steps to Reproduce
 
 1. [Provide a detailed step-by-step guide to reproduce the issue. Include any relevant code or configuration.]

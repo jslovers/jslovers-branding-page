@@ -1,4 +1,7 @@
 ## Issue Description
+**Issue Type:**
+- [ ] Bug
+- [ ] Feature Request
 
 **Summary:**
 [Provide a brief description of the issue.]

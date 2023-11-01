@@ -15,7 +15,7 @@
 **Checklist:**
 
 - [ ] The code follows the project's coding standards and conventions.
-- [ ] Have you self tested the changes.
+- [ ] Have you self-tested the changes?
 - [ ] Documentation has been updated, if necessary.
 - [ ] Any conflicts with the base branch have been resolved.
 

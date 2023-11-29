@@ -1,4 +1,4 @@
-##Issue No.
+## Issue No.
 
 **Summary:**
 
@@ -27,4 +27,3 @@
 [Add any additional screenshots, if necessary.]
 
 [Optional: Add any specific closing notes or thank you messages.]
-

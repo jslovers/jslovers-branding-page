@@ -22,33 +22,37 @@ We are using Tailwind for styling
    git clone https://github.com/your-username/jslovers-branding-page.git
    ```
 
-3. **Create a Branch**: Before making any changes, create a new branch to work on. Please use a descriptive name for your branch.
+3. **Run on Local**: Go to package.json, and run the dev command or run `npm run dev` on terminal. This will open the `index.html` on your local browser.
+
+4. **Create a Branch**: Before making any changes, create a new branch to work on. Please use a descriptive name for your branch.
 
    ```bash
    git checkout -b feature/your-feature-name
    ```
 
-4. **Make Your Changes**: Make your desired changes or additions to the codebase.
+5. **Make Your Changes**: Make your desired changes or additions to the codebase.
 
-5. **Test Your Changes**: Ensure that your code is thoroughly tested and doesn't break any existing functionality. Also, make sure your code follows our coding standards.
+6. **Test Your Changes**: Ensure that your code is thoroughly tested and doesn't break any existing functionality. Also, make sure your code follows our coding standards.
 
-6. **Commit Your Changes**: Commit your changes with a descriptive commit message. Please follow the [Conventional Commits](https://www.conventionalcommits.org/) format if possible.
+7. **Format your code**: Once you are happy with your change please make sure to format by running command `npm run format`. Fixs all the issues before raising your PR.
+
+8. **Commit Your Changes**: Commit your changes with a descriptive commit message. Please follow the [Conventional Commits](https://www.conventionalcommits.org/) format if possible.
 
    ```bash
    git commit -m "feat: Add new feature"
    ```
 
-7. **Push Your Changes**: Push your branch to your forked repository.
+9. **Push Your Changes**: Push your branch to your forked repository.
 
    ```bash
    git push origin feature/your-feature-name
    ```
 
-8. **Create a Pull Request**: Open a pull request from your fork to this main repository. Please provide a detailed description of your changes and reference any relevant issues if applicable.
+10. **Create a Pull Request**: Open a pull request from your fork to this main repository. Please provide a detailed description of your changes and reference any relevant issues if applicable.
 
-9. **Review and Discussion**: Your pull request will undergo review by the maintainers and other contributors. Be prepared to address feedback and make necessary changes.
+11. **Review and Discussion**: Your pull request will undergo review by the maintainers and other contributors. Be prepared to address feedback and make necessary changes.
 
-10. **Merge**: Once your pull request is approved, it will be merged into the main branch.
+12. **Merge**: Once your pull request is approved, it will be merged into the main branch.
 
 ## Coding Standards
 

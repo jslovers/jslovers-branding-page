@@ -1,151 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>JSLovers Branding Page</title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="resources/style.css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script>
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        fontFamily: {
-                            "work-sans": ["Work Sans", "sans"],
-                        },
-                    },
-                },
-            };
-        </script>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSLovers Branding Page</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="resources/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'work-sans': ['Work Sans', 'sans'],
+            },
+          },
+        },
+      }
+    </script>
+  </head>
 
-    <body>
-        <header class="flex bg-[#194d9f] justify-between py-5">
-            <h1 class="text-center">
-                <a class="font-dm-serif-display font-bold text-white" href="/">
-                    <img
-                        src="./resources/assets/jsloversLogo.png"
-                        alt="jslovers homepage"
-                        width="100"
-                    />
-                    <span>JSLovers</span>
-                </a>
-            </h1>
-            <nav>
-                <ul class="font-poppins text-xl flex gap-4">
-                    <li>
-                        <a
-                            href="#"
-                            class="hover:no-underline underline text-white"
-                            >About
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a
-                            href="#chapters"
-                            class="hover:no-underline underline text-white"
-                        >
-                            Chapters
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#sponsors"
-                            class="hover:no-underline underline text-white"
-                        >
-                            Sponsors
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#team"
-                            class="hover:no-underline underline text-white"
-                        >
-                            Team
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#creatives"
-                            class="hover:no-underline underline text-white"
-                        >
-                            Creatives
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section class="container mx-auto">
-            <section class="py-5 font-work-sans">
-                <h2 class="font-work-sans font-bold pl-8 text-3xl text-center">
-                    About JSLovers
-                </h2>
-                <div
-                    class="flex flex-col justify-center items-center md:px-20 px-5"
-                >
-                    <div class="mb-4">
-                        <p class="text-justify leading-8">
-                            Welcome to <b>JSLovers</b>, the
-                            <a href="#">award-winning</a> JavaScript meetup
-                            group with chapters in <a href="#">Delhi</a>,<a
-                                href="#"
-                                >Bangalore</a
-                            >, and <a href="#">Pune</a>! We are a passionate
-                            community of JavaScript enthusiasts who come
-                            together to share knowledge, explore the latest
-                            trends, and collaborate on exciting projects.
-                        </p>
-                        <p class="text-justify leading-8 mt-4">
-                            Our meetups cover a wide range of topics, from
-                            JavaScript fundamentals to advanced frameworks,
-                            front-end and back-end development, and everything
-                            in between. We believe in the power of networking
-                            and learning from fellow enthusiasts, making our
-                            meetups a great place to connect with like-minded
-                            individuals. JSLovers is proud to have received
-                            recognition from Meetup for our outstanding
-                            contributions to the tech community.
-                        </p>
-                        <p class="text-justify leading-8 mt-4">
-                            We're also grateful to our sponsors, including
-                            Google, Microsoft, and many more, who help make our
-                            events even more exciting and informative. Join us
-                            for our upcoming events, workshops, and discussions
-                            to expand your JavaScript skills and be part of a
-                            supportive community that shares your love for
-                            coding. Let's code, learn, and grow together with
-                            JSLovers!"
-                        </p>
-                        <h2 class="text-3xl py-4 mt-4 font-bold text-center">
-                            Watch Talks About JSLovers
-                        </h2>
+  <body>
+    <header class="flex bg-[#194d9f] justify-between py-5">
+      <h1 class="text-center">
+        <a class="font-dm-serif-display font-bold text-white" href="/">
+          <img
+            src="./resources/assets/jsloversLogo.png"
+            alt="jslovers homepage"
+            width="100"
+          />
+          <span>JSLovers</span>
+        </a>
+      </h1>
+      <nav>
+        <ul class="font-poppins text-xl flex gap-4">
+          <li>
+            <a href="#" class="hover:no-underline underline text-white"
+              >About
+            </a>
+          </li>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <iframe
-                                width="100%"
-                                height="315"
-                                class="rounded-lg"
-                                src="https://www.youtube.com/embed/uAlOo3aDzZw"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen
-                            ></iframe>
-                            <iframe
-                                class="rounded-lg"
-                                width="100%"
-                                height="315"
-                                src="https://www.youtube.com/embed/P_lNs8pBRD8"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                    </div>
-                    <!-- <div>
+          <li>
+            <a href="#chapters" class="hover:no-underline underline text-white">
+              Chapters
+            </a>
+          </li>
+          <li>
+            <a href="#sponsors" class="hover:no-underline underline text-white">
+              Sponsors
+            </a>
+          </li>
+          <li>
+            <a href="#team" class="hover:no-underline underline text-white">
+              Team
+            </a>
+          </li>
+          <li>
+            <a
+              href="#creatives"
+              class="hover:no-underline underline text-white"
+            >
+              Creatives
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container mx-auto">
+      <section class="py-5 font-work-sans">
+        <h2 class="font-work-sans font-bold pl-8 text-3xl text-center">
+          About JSLovers
+        </h2>
+        <div class="flex flex-col justify-center items-center md:px-20 px-5">
+          <div class="mb-4">
+            <p class="text-justify leading-8">
+              Welcome to <b>JSLovers</b>, the
+              <a href="#">award-winning</a> JavaScript meetup group with
+              chapters in <a href="#">Delhi</a>,<a href="#">Bangalore</a>, and
+              <a href="#">Pune</a>! We are a passionate community of JavaScript
+              enthusiasts who come together to share knowledge, explore the
+              latest trends, and collaborate on exciting projects.
+            </p>
+            <p class="text-justify leading-8 mt-4">
+              Our meetups cover a wide range of topics, from JavaScript
+              fundamentals to advanced frameworks, front-end and back-end
+              development, and everything in between. We believe in the power of
+              networking and learning from fellow enthusiasts, making our
+              meetups a great place to connect with like-minded individuals.
+              JSLovers is proud to have received recognition from Meetup for our
+              outstanding contributions to the tech community.
+            </p>
+            <p class="text-justify leading-8 mt-4">
+              We're also grateful to our sponsors, including Google, Microsoft,
+              and many more, who help make our events even more exciting and
+              informative. Join us for our upcoming events, workshops, and
+              discussions to expand your JavaScript skills and be part of a
+              supportive community that shares your love for coding. Let's code,
+              learn, and grow together with JSLovers!"
+            </p>
+            <h2 class="text-3xl py-4 mt-4 font-bold text-center">
+              Watch Talks About JSLovers
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <iframe
+                width="100%"
+                height="315"
+                class="rounded-lg"
+                src="https://www.youtube.com/embed/uAlOo3aDzZw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                class="rounded-lg"
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/P_lNs8pBRD8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <!-- <div>
                 <p>Please use our logo (check the terms and conditions)</p>
                   <img
                       src="../assets/logo.png"
@@ -153,235 +133,232 @@
                       class="pt-8 w-[410px]"
                   />
               </div> -->
-                </div>
-            </section>
-        </section>
-        <section
-            class="py-8 pb-5 font-work-sans bg-[#F37155] text-center"
-            id="connect"
+        </div>
+      </section>
+    </section>
+    <section
+      class="py-8 pb-5 font-work-sans bg-[#F37155] text-center"
+      id="connect"
+    >
+      <h2 class="font-work-sans font-semibold mb-5 text-3xl">
+        Connect with us
+      </h2>
+      <a
+        href="https://twitter.com/jslovers_del"
+        target="_blank"
+        class="hover:text-white inline-block mr-4"
+      >
+        <img
+          src="resources/assets/twitter.png"
+          alt="jslovers twitter logo"
+          class="hover:invert mx-auto"
+        />
+        <p class="mt-2 underline">Twitter</p>
+      </a>
+
+      <a href="" target="_blank" class="hover:text-white inline-block mr-4">
+        <img
+          src="resources/assets/yt.png"
+          alt="jslovers youtube logo"
+          class="hover:invert mx-auto"
+        />
+        <p class="mt-2 underline">Youtube</p>
+      </a>
+
+      <a href="" target="_blank" class="hover:text-white inline-block mr-4">
+        <img
+          src="resources/assets/website.png"
+          alt="jslovers twitter website"
+          class="hover:invert mx-auto"
+        />
+        <p class="mt-2 underline">Website</p>
+      </a>
+      <a
+        href="https://discord.com/invite/89QtcRw"
+        target="_blank"
+        class="hover:text-white inline-block"
+      >
+        <img
+          src="resources/assets/discord.png"
+          alt=""
+          class="hover:invert mx-auto"
+        />
+        <p class="mt-2 underline">Discord</p>
+      </a>
+    </section>
+    <section class="py-8 pb-5 font-work-sans" id="chapters">
+      <h2 class="font-work-sans text-center font-semibold pl-8 text-3xl">
+        JSLovers's Chapters
+      </h2>
+
+      <div class="flex justify-center items-center mt-8 gap-8">
+        <a
+          href="https://www.meetup.com/jslovers"
+          target="_blank"
+          class="inline-block text-center"
         >
-            <h2 class="font-work-sans font-semibold mb-5 text-3xl">
-                Connect with us
-            </h2>
-            <a
-                href="https://twitter.com/jslovers_del"
-                target="_blank"
-                class="hover:text-white inline-block mr-4"
-            >
-                <img
-                    src="resources/assets/twitter.png"
-                    alt="jslovers twitter logo"
-                    class="hover:invert mx-auto"
-                />
-                <p class="mt-2 underline">Twitter</p>
-            </a>
+          <img
+            src="resources/assets/india-gate.png"
+            alt="delhi jslovers"
+            class="hover:opacity-50 w-[80px]"
+          />
+          <p class="hover:no-underline underline mt-2">Delhi/NCR</p>
+        </a>
+        <a href="" class="inline-block text-center">
+          <img
+            src="resources/assets/bangalore.png"
+            alt="Bengaluru jslovers"
+            class="hover:opacity-50 w-[80px]"
+          />
+          <p class="hover:no-underline underline mt-2">Bengaluru</p>
+        </a>
+        <a href="" class="inline-block text-center">
+          <img
+            src="resources/assets/mumbai.png"
+            alt="Mumbai JSLovers"
+            class="hover:opacity-50 w-[80px]"
+          />
+          <p class="hover:no-underline underline mt-2">Mumbai</p>
+        </a>
+        <a href="" class="inline-block text-center">
+          <img
+            src="resources/assets/bulding.png"
+            alt="Pune JSLovers"
+            class="hover:opacity-50 w-[80px]"
+          />
+          <p class="hover:no-underline underline mt-2">Pune</p>
+        </a>
+        <a href="" class="inline-block text-center">
+          <img
+            src="resources/assets/big-ben.png"
+            alt="Pune JSLovers"
+            class="hover:opacity-50 w-[80px]"
+          />
+          <p class="hover:no-underline underline mt-2">London</p>
+        </a>
+      </div>
+    </section>
+    <section class="bg-[#F3F6E6] py-8" id="sponsors">
+      <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
+        Our Sponsors
+      </h2>
+      <p class="text-l text-center">
+        We are looking for venues, goodies, F&B, and speakers sponsors.<br />
+        If you would like to support us please drop a message to
+        <a href="mailto:neha@jslovers.com" class="underline"
+          >neha@jslovers.com</a
+        >
+      </p>
 
-            <a
-                href=""
-                target="_blank"
-                class="hover:text-white inline-block mr-4"
-            >
-                <img
-                    src="resources/assets/yt.png"
-                    alt="jslovers youtube logo"
-                    class="hover:invert mx-auto"
-                />
-                <p class="mt-2 underline">Youtube</p>
-            </a>
+      <div class="flex items-center justify-center pt-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/microsoft.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">Microsoft</h4>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/expedia.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">Expedia</h4>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/google.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">Google</h4>
+          </div>
 
-            <a href="" target="_blank" class="hover:text-white inline-block mr-4">
-                <img
-                    src="resources/assets/website.png"
-                    alt="jslovers twitter website"
-                    class="hover:invert mx-auto"
-                />
-                <p class="mt-2 underline">Website</p>
-            </a>
-            <a href="https://discord.com/invite/89QtcRw" target="_blank" class="hover:text-white inline-block">
-                <img
-                    src="resources/assets/discord.png"
-                    alt=""
-                    class="hover:invert mx-auto"
-                />
-                <p class="mt-2 underline">Discord</p>
-            </a>
-        </section>
-        <section class="py-8 pb-5 font-work-sans" id="chapters">
-            <h2 class="font-work-sans text-center font-semibold pl-8 text-3xl">
-                JSLovers's Chapters
-            </h2>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/ticketmaster.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">Ticket master</h4>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/Nagarro.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">Nagarro</h4>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/geekyants.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">Geekyants</h4>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/Thoughtworks.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">Thoughtworks</h4>
+          </div>
 
-            <div class="flex justify-center items-center mt-8 gap-8">
-                <a
-                    href="https://www.meetup.com/jslovers"
-                    target="_blank"
-                    class="inline-block text-center"
-                >
-                    <img
-                        src="resources/assets/india-gate.png"
-                        alt="delhi jslovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2" >Delhi/NCR</p>
-                </a>
-                <a href="" class="inline-block text-center">
-                    <img
-                        src="resources/assets/bangalore.png"
-                        alt="Bengaluru jslovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2">Bengaluru</p>
-                </a>
-                <a href="" class="inline-block text-center">
-                    <img
-                        src="resources/assets/mumbai.png"
-                        alt="Mumbai JSLovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2">Mumbai</p>
-                </a>
-                <a href="" class="inline-block text-center">
-                    <img
-                        src="resources/assets/bulding.png"
-                        alt="Pune JSLovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2">Pune</p>
-                </a>
-                <a href="" class="inline-block text-center">
-                    <img
-                        src="resources/assets/big-ben.png"
-                        alt="Pune JSLovers"
-                        class="hover:opacity-50 w-[80px]"
-                    />
-                    <p class="hover:no-underline underline mt-2">London</p>
-                </a>
-            </div>
-        </section>
-        <section class="bg-[#F3F6E6] py-8" id="sponsors">
-            <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
-                Our Sponsors
-            </h2>
-            <p class="text-l text-center">
-                We are looking for venues, goodies, F&B, and speakers
-                sponsors.<br />
-                If you would like to support us please drop a message to
-                <a href="mailto:neha@jslovers.com" class="underline"
-                    >neha@jslovers.com</a
-                >
-            </p>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/lbb.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">Lbb</h4>
+          </div>
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/hotstar.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">Hotstar</h4>
+          </div>
 
-            <div class="flex items-center justify-center pt-8">
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-
-                            src="./resources/assets/microsoft.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""  
-                        />
-                        <h4 class="mt-2 underline">Microsoft</h4>
-                    </div>
-                    <div class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer">
-                        <img
-                            src="./resources/assets/expedia.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""
-                        />
-                        <h4 class="mt-2 underline">Expedia</h4>
-                     
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/google.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""
-                        />
-                        <h4 class="mt-2 underline">Google</h4>
-                     </div>
-
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/ticketmaster.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""
-                        />
-                    <h4 class="mt-2 underline">Ticket master</h4>
-                
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/Nagarro.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""
-                        />
-                     <h4 class="mt-2 underline">Nagarro</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/geekyants.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""
-                        />
-                    <h4 class="mt-2 underline">Geekyants</h4>
-                    </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/Thoughtworks.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""
-                        />
-                     <h4 class="mt-2 underline">Thoughtworks</h4>
-                    </div>
-
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/lbb.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""
-                        />
-                        <h4 class="mt-2 underline">Lbb</h4>
-                     </div>
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/hotstar.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""
-                        />
-                        <h4 class="mt-2 underline">Hotstar</h4>
-                    </div>
-
-                    <div
-                        class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
-                    >
-                        <img
-                            src="./resources/assets/91springboard.png"
-                            class="w-24 h-24 rounded object-contain"
-                            alt=""
-                        />
-                        <h4 class="mt-2 underline">91Springboard</h4>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        <!-- <section class="bg-[#F3F6E6] py-8" id="colors">
+          <div
+            class="w-32 flex flex-col justify-center items-center rounded-xl font-work-sans p-2 cursor-pointer"
+          >
+            <img
+              src="./resources/assets/91springboard.png"
+              class="w-24 h-24 rounded object-contain"
+              alt=""
+            />
+            <h4 class="mt-2 underline">91Springboard</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="bg-[#F3F6E6] py-8" id="colors">
           <div class="py-2">
               <h2
                   class="font-work-sans font-semibold pl-8 text-2xl text-center"
@@ -464,25 +441,30 @@
               </div>
           </div>
       </section> -->
-        <div class="py-8 font-work-sans" id="team">
-            <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
-                Our Team
-            </h2>
-        </div>
-        <div class="py-8 font-work-sans" id="creatives">
-            <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
-                Social Creatives
-            </h2>
+    <div class="py-8 font-work-sans" id="team">
+      <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
+        Our Team
+      </h2>
+    </div>
+    <div class="py-8 font-work-sans" id="creatives">
+      <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
+        Social Creatives
+      </h2>
 
-            <a href="">Logos</a>
-            <a href="">Slides</a>
-            <a href="">Posters</a>
-        </div>
+      <a href="">Logos</a>
+      <a href="">Slides</a>
+      <a href="">Posters</a>
+    </div>
 
-        <footer class="text-center py-4 text-small bg-[#d5e1f5]">
-            Copyright 2023-2024 |
-            <a href="termsandcondition.html" class="underline">Terms and Conditions</a> |
-            <a href="codeofconduct.html" target="_blank" class="underline">Code of conduct</a>
-        </footer>
-    </body>
+    <footer class="text-center py-4 text-small bg-[#d5e1f5]">
+      Copyright 2023-2024 |
+      <a href="termsandcondition.html" class="underline"
+        >Terms and Conditions</a
+      >
+      |
+      <a href="codeofconduct.html" target="_blank" class="underline"
+        >Code of conduct</a
+      >
+    </footer>
+  </body>
 </html>

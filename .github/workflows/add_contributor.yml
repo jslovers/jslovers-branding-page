@@ -1,0 +1,30 @@
+name: Add Contributor Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  add-contributor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Node.js Script
+        run: |
+          node scripts/script.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: ${{ github.event.repository.owner.login }} # Updated to use GitHub event data
+          REPO_NAME: ${{ github.event.repository.name }} # Updated to use GitHub event data

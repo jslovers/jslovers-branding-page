@@ -1,0 +1,30 @@
+{
+    "chapters": [
+      {
+        "name": "Delhi/NCR",
+        "image": "resources/assets/india-gate.png",
+        "url": "https://www.meetup.com/jslovers"
+      },
+      {
+        "name": "Bengaluru",
+        "image": "resources/assets/bangalore.png",
+        "url": ""
+      },
+      {
+        "name": "Mumbai",
+        "image": "resources/assets/mumbai.png",
+        "url": ""
+      },
+      {
+        "name": "Pune",
+        "image": "resources/assets/bulding.png",
+        "url": ""
+      },
+      {
+        "name": "London",
+        "image": "resources/assets/big-ben.png",
+        "url": ""
+      }
+    ]
+  }
+  

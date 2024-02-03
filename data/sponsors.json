@@ -1,0 +1,65 @@
+{
+    "sponsors": [
+      {
+        "id": 1,
+        "name": "Microsoft",
+        "image": "./resources/assets/microsoft.png",
+        "website": "https://www.microsoft.com"
+      },
+      {
+        "id": 2,
+        "name": "Expedia",
+        "image": "./resources/assets/expedia.png",
+        "website": "https://www.expedia.com"
+      },
+      {
+        "id": 3,
+        "name": "Google",
+        "image": "./resources/assets/google.png",
+        "website": "https://www.google.com"
+      },
+      {
+        "id": 4,
+        "name": "Ticketmaster",
+        "image": "./resources/assets/ticketmaster.png",
+        "website": "https://www.ticketmaster.com"
+      },
+      {
+        "id": 5,
+        "name": "Nagarro",
+        "image": "./resources/assets/Nagarro.png",
+        "website": "https://www.nagarro.com"
+      },
+      {
+        "id": 6,
+        "name": "Geekyants",
+        "image": "./resources/assets/geekyants.png",
+        "website": "https://www.geekyants.com"
+      },
+      {
+        "id": 7,
+        "name": "Thoughtworks",
+        "image": "./resources/assets/Thoughtworks.png",
+        "website": "https://www.thoughtworks.com"
+      },
+      {
+        "id": 8,
+        "name": "Lbb",
+        "image": "./resources/assets/lbb.png",
+        "website": "https://lbb.in/"
+      },
+      {
+        "id": 9,
+        "name": "Hotstar",
+        "image": "./resources/assets/hotstar.png",
+        "website": "https://www.hotstar.com"
+      },
+      {
+        "id": 10,
+        "name": "91Springboard",
+        "image": "./resources/assets/91springboard.png",
+        "website": "https://www.91springboard.com"
+      }
+    ]
+  }
+  

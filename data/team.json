@@ -1,0 +1,28 @@
+{
+    "team": [
+        {
+            "id": 1,
+            "name": "Neha Sharma",
+            "role": "Co-Founder & Lead Organizer",
+            "bio": "Neha is a passionate JavaScript developer and speaker, dedicated to building community and sharing knowledge.",
+            "image": "path/to/neha-sharma-image.jpg",
+            "socialLinks": {
+                "x": "https://x.com/hellonehha",
+                "linkedin": "https://www.linkedin.com/in/nehha/",
+                "github": "https://github.com/neha"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Jaswant Sandhu",
+            "role": "Co-Founder",
+            "bio": "",
+            "image": "path/to/jaswant-sandhu-image.jpg",
+            "socialLinks": {
+                "x": "https://x.com/jaswantsandhu",
+                "linkedin": "https://www.linkedin.com/in/jaswant-singh-sandhu/",
+                "github": "https://github.com/jaswantsandhu"
+            }
+        }
+    ]
+}

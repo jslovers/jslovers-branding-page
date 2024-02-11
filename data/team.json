@@ -26,6 +26,17 @@
         },
         {
             "id": 3,
+            "name": "Vrukshali Torawane",
+            "role": "Meetup Organizer",
+            "bio": "Vrukshali is passionate about code, building community, learning new technologies and sharing knowledge.",
+            "image": "path/to/vrukshali-torawane-image.jpg",
+            "socialLinks": {
+                "x": "https://twitter.com/vrukshalii_",
+                "linkedin": "https://www.linkedin.com/in/vrukshali-torawane/",
+                "github": "https://github.com/Vrukshali-26
+        },
+        {
+            "id": 4,
             "name": "Ekas Preet Singh",
             "role": "Co-Organizer & Volunteer",
             "bio": "Always keen on sharing as much as possible",

@@ -33,7 +33,18 @@
             "socialLinks": {
                 "x": "https://twitter.com/vrukshalii_",
                 "linkedin": "https://www.linkedin.com/in/vrukshali-torawane/",
-                "github": "https://github.com/Vrukshali-26"
+                "github": "https://github.com/Vrukshali-26
+        },
+        {
+            "id": 4,
+            "name": "Ekas Preet Singh",
+            "role": "Co-Organizer & Volunteer",
+            "bio": "Always keen on sharing as much as possible",
+            "image": "path/to/ekas-preet-singh-image.jpg",
+            "socialLinks": {
+                "x": "https://twitter.com/ekaspreet93",
+                "linkedin": "https://www.linkedin.com/in/ekas",
+                "github": "https://github.com/ekas"
             }
         }
     ]

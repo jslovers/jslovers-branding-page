@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Neha Sharma",
-            "role": "Co-Founder & Lead Organizer",
+            "role": "Co-Founder",
             "bio": "Neha is a passionate JavaScript developer and speaker, dedicated to building community and sharing knowledge.",
             "image": "path/to/neha-sharma-image.jpg",
             "socialLinks": {
@@ -39,7 +39,7 @@
         {
             "id": 4,
             "name": "Ekas Preet Singh",
-            "role": "Co-Organizer & Volunteer",
+            "role": "Lead Organizer",
             "bio": "Always keen on sharing as much as possible",
             "image": "path/to/ekas-preet-singh-image.jpg",
             "socialLinks": {

@@ -23,6 +23,18 @@
                 "linkedin": "https://www.linkedin.com/in/jaswant-singh-sandhu/",
                 "github": "https://github.com/jaswantsandhu"
             }
+        },
+        {
+            "id": 3,
+            "name": "Ekas Preet Singh",
+            "role": "Co-Organizer & Volunteer",
+            "bio": "Always keen on sharing as much as possible",
+            "image": "path/to/ekas-preet-singh-image.jpg",
+            "socialLinks": {
+                "x": "https://twitter.com/ekaspreet93",
+                "linkedin": "https://www.linkedin.com/in/ekas",
+                "github": "https://github.com/ekas"
+            }
         }
     ]
 }

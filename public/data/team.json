@@ -47,6 +47,18 @@
                 "linkedin": "https://www.linkedin.com/in/ekas",
                 "github": "https://github.com/ekas"
             }
+        },
+        {
+            "id": 5,
+            "name": "Yashraj Nayak",
+            "role": "Meetup Organizer",
+            "bio": "Developer turned community professional. Yashraj has been immersed in the 'people' side of technology, building and growing developer communities and programs in the Asia-Pacific region.",
+            "image": "path/to/yashraj-nayak-image.jpg",
+            "socialLinks": {
+                "x": "https://twitter.com/yashrajnayak",
+                "linkedin": "https://www.linkedin.com/in/yashrajnayak",
+                "github": "https://github.com/yashrajnayak"
+            }
         }
     ]
 }

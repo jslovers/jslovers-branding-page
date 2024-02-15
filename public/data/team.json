@@ -49,7 +49,7 @@
             }
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Smile Gupta",
             "role": "Meetup Organizer",
             "bio": "",
@@ -58,6 +58,18 @@
                 "x": "https://twitter.com/smileguptaaa",
                 "linkedin": "https://www.linkedin.com/in/smilegupta",
                 "github": "https://github.com/smilegupta"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Yashraj Nayak",
+            "role": "Meetup Organizer",
+            "bio": "Developer turned community professional. Yashraj has been immersed in the 'people' side of technology, building and growing developer communities and programs in the Asia-Pacific region.",
+            "image": "path/to/yashraj-nayak-image.jpg",
+            "socialLinks": {
+                "x": "https://twitter.com/yashrajnayak",
+                "linkedin": "https://www.linkedin.com/in/yashrajnayak",
+                "github": "https://github.com/yashrajnayak"
             }
         }
     ]

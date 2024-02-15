@@ -47,6 +47,18 @@
                 "linkedin": "https://www.linkedin.com/in/ekas",
                 "github": "https://github.com/ekas"
             }
+        },
+        {
+            "id": 4,
+            "name": "Smile Gupta",
+            "role": "Meetup Organizer",
+            "bio": "",
+            "image": "https://twitter.com/smileguptaaa/photo",
+            "socialLinks": {
+                "x": "https://twitter.com/smileguptaaa",
+                "linkedin": "https://www.linkedin.com/in/smilegupta",
+                "github": "https://github.com/smilegupta"
+            }
         }
     ]
 }

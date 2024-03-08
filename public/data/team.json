@@ -14,19 +14,6 @@
             "city" : "London"
         },
         {
-            "id": 2,
-            "name": "Jaswant Sandhu",
-            "role": "Co-Founder",
-            "bio": "",
-            "image": "",
-            "socialLinks": {
-                "x": "https://x.com/jaswantsandhu",
-                "linkedin": "https://www.linkedin.com/in/jaswant-singh-sandhu/",
-                "github": "https://github.com/jaswantsandhu"
-            },
-            "city" : "London"
-        },
-        {
             "id": 3,
             "name": "Vrukshali Torawane",
             "role": "Meetup Organizer",
@@ -38,6 +25,19 @@
                 "github": "https://github.com/Vrukshali-26"
             },
             "city" : "Hyderabad"
+        },
+        {
+            "id": 2,
+            "name": "Jaswant Sandhu",
+            "role": "Co-Founder",
+            "bio": "",
+            "image": "",
+            "socialLinks": {
+                "x": "https://x.com/jaswantsandhu",
+                "linkedin": "https://www.linkedin.com/in/jaswant-singh-sandhu/",
+                "github": "https://github.com/jaswantsandhu"
+            },
+            "city" : "London"
         },
         {
             "id": 4,

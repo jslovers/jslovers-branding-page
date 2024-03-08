@@ -21,8 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 name.textContent = member.name;
                 name.className = 'text-xl font-bold text-gray-800 mb-1';
 
+
                 const role = document.createElement('p');
-                role.textContent = member.role;
+                role.textContent = `${member.role}, ${member.city}`;
                 role.className = 'text-base text-gray-600 mb-3';
 
                 const bio = document.createElement('p');

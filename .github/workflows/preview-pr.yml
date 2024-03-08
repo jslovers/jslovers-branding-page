@@ -1,0 +1,28 @@
+name: Deploy Preview to Firebase Hosting
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Deploy to Firebase Hosting Preview Channel
+      id: deploy
+      uses: FirebaseExtended/action-hosting-deploy@v0
+      with:
+        repoToken: "${{ secrets.GITHUB_TOKEN }}"
+        firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSLOVERS_13917 }}"
+        projectId: jslovers-13917
+        channelId: pr-${{ github.event.pull_request.number }}
+
+    - name: Comment PR with Preview URL
+      uses: unsplash/comment-on-pr@master
+      env:
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      with:
+        msg: "Preview URL: ${{ steps.deploy.outputs.details_url }}"
+        check_for_duplicate_msg: true

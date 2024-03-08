@@ -5,48 +5,52 @@
             "name": "Neha Sharma",
             "role": "Co-Founder",
             "bio": "Neha is a passionate JavaScript developer and speaker, dedicated to building community and sharing knowledge.",
-            "image": "path/to/neha-sharma-image.jpg",
+            "image": "./resources/assets/profile-images/neha-profile.jpeg",
             "socialLinks": {
                 "x": "https://x.com/hellonehha",
                 "linkedin": "https://www.linkedin.com/in/nehha/",
                 "github": "https://github.com/neha"
-            }
+            },
+            "city" : "London"
         },
         {
             "id": 2,
             "name": "Jaswant Sandhu",
             "role": "Co-Founder",
             "bio": "",
-            "image": "path/to/jaswant-sandhu-image.jpg",
+            "image": "",
             "socialLinks": {
                 "x": "https://x.com/jaswantsandhu",
                 "linkedin": "https://www.linkedin.com/in/jaswant-singh-sandhu/",
                 "github": "https://github.com/jaswantsandhu"
-            }
+            },
+            "city" : "London"
         },
         {
             "id": 3,
             "name": "Vrukshali Torawane",
             "role": "Meetup Organizer",
             "bio": "Vrukshali is passionate about code, building community, learning new technologies and sharing knowledge.",
-            "image": "path/to/vrukshali-torawane-image.jpg",
+            "image": "./resources/assets/profile-images/vrukshali-torawane.jpeg",
             "socialLinks": {
                 "x": "https://twitter.com/vrukshalii_",
                 "linkedin": "https://www.linkedin.com/in/vrukshali-torawane/",
                 "github": "https://github.com/Vrukshali-26"
-            }
+            },
+            "city" : "Hyderabad"
         },
         {
             "id": 4,
             "name": "Ekas Preet Singh",
             "role": "Lead Organizer",
             "bio": "Always keen on sharing as much as possible",
-            "image": "path/to/ekas-preet-singh-image.jpg",
+            "image": "./resources/assets/profile-images/ekas-preet-singh.jpeg",
             "socialLinks": {
                 "x": "https://twitter.com/ekaspreet93",
                 "linkedin": "https://www.linkedin.com/in/ekas",
                 "github": "https://github.com/ekas"
-            }
+            },
+            "city": "EU"
         },
         {
             "id": 5,
@@ -58,19 +62,21 @@
                 "x": "https://twitter.com/smileguptaaa",
                 "linkedin": "https://www.linkedin.com/in/smilegupta",
                 "github": "https://github.com/smilegupta"
-            }
+            },
+            "city": "Bengaluru"
         },
         {
             "id": 6,
             "name": "Yashraj Nayak",
             "role": "Meetup Organizer",
             "bio": "Developer turned community professional. Yashraj has been immersed in the 'people' side of technology, building and growing developer communities and programs in the Asia-Pacific region.",
-            "image": "path/to/yashraj-nayak-image.jpg",
+            "image": "./resources/assets/profile-images/yashraj-nayak.jpeg",
             "socialLinks": {
                 "x": "https://twitter.com/yashrajnayak",
                 "linkedin": "https://www.linkedin.com/in/yashrajnayak",
                 "github": "https://github.com/yashrajnayak"
-            }
+            },
+            "city": "Bengaluru"
         }
     ]
 }

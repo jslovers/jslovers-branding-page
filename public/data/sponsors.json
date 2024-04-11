@@ -59,6 +59,12 @@
         "name": "91Springboard",
         "image": "./resources/assets/91springboard.png",
         "website": "https://www.91springboard.com"
+      },
+      {
+        "id": 11,
+        "name": "NonStop io Technologies",
+        "image": "./resources/assets/nonstopio.png",
+        "website": "https://www.nonstopio.com/"
       }
     ]
   }

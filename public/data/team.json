@@ -77,19 +77,6 @@
                 "github": "https://github.com/yashrajnayak"
             },
             "city": "Bengaluru"
-        },
-        {
-            "id": 7,
-            "name": "Atishay Baid",
-            "role": "Lead Organizer",
-            "bio": "Engineering Leader 👨‍💼 Tech Speaker 🎙️ Hosting Tech Meetups  @jslovers_del 🚀 Currently Developing @Birdeye_🐦",
-            "image": "./resources/assets/profile-images/atishay.jpeg",
-            "socialLinks": {
-                "x": "https://twitter.com/atishaybaid",
-                "linkedin": "https://www.linkedin.com/in/atishay-baid-7b17a447/",
-                "github": ""
-            },
-            "city": "Delhi"
         }
     ]
 }

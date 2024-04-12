@@ -77,6 +77,19 @@
                 "github": "https://github.com/yashrajnayak"
             },
             "city": "Bengaluru"
+        },
+        {
+            "id": 7,
+            "name": "Lakshay Manchanda",
+            "role": "Meetup Organizer",
+            "bio": "Full-stack developer bringing ideas to life, from front-end design to back-end functionality.",
+            "image": "./resources/assets/profile-images/lakshay.jpg",
+            "socialLinks": {
+                "x": "https://twitter.com/lakshayman2000",
+                "linkedin": "https://www.linkedin.com/in/lakshayman/",
+                "github": "https://github.com/lakshayman"
+            },
+            "city": "Delhi"
         }
     ]
 }

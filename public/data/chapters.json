@@ -18,7 +18,7 @@
       {
         "name": "Pune",
         "image": "resources/assets/bulding.png",
-        "url": ""
+        "url": "https://www.meetup.com/jslovers-pune/"
       },
       {
         "name": "London",
@@ -26,5 +26,5 @@
         "url": ""
       }
     ]
-  }
+}
   

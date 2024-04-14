@@ -90,6 +90,20 @@
                 "github": "https://github.com/lakshayman"
             },
             "city": "Delhi"
+        },
+        {
+            "id": 8,
+            "name": "Preeti Wadhwani",
+            "role": "Meetup Organizer",
+            "bio": "Exploring JavaScript these days | Senior Software Engineer @Red Hat | Coffee, Meet-up and Conference Lover | Expressing emotions via GIFs",
+            "image": "./resources/assets/profile-images/preeti-wadhwani.jpeg",
+            "socialLinks": {
+                "x": "https://twitter.com/preetiwadhwani_",
+                "linkedin": "https://www.linkedin.com/in/preetiwadhwani/",
+                "github": "https://github.com/PreetiW"
+            },
+            "city": "Pune"
         }
+
     ]
 }

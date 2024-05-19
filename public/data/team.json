@@ -103,7 +103,20 @@
                 "github": "https://github.com/PreetiW"
             },
             "city": "Pune"
+            },
+        {
+           
+            "id": 9,
+            "name": "Pujarini Jena",
+            "role": "Meetup Organizer",
+            "bio": "An Accidental Developer who loves to build user interfaces div by div.",
+            "image": "/public/resources/assets/pujarini.png",
+            "socialLinks": {
+                "x": "https://twitter.com/pujarini_codeit",
+                "linkedin": "https://www.linkedin.com/in/pujarini-jena/",
+                "github": "https://www.linkedin.com/in/pujarini-jena/"
+            },
+             "city": "Bangalore"
         }
-
     ]
 }

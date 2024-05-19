@@ -1,185 +1,237 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JSLovers | Tech meetups.</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="resources/style.css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            'work-sans': ['Work Sans', 'sans'],
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSLovers | Tech meetups.</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="resources/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'work-sans': ['Work Sans', 'sans'],
+            },
           },
         },
-      },
-    }
-  </script>
-  <script src="scripts/sponsors.js"></script>
-  <script src="scripts/team.js"></script>
-  <script src="scripts/chapters.js"></script>
+      }
+    </script>
+    <script src="scripts/sponsors.js"></script>
+    <script src="scripts/team.js"></script>
+    <script src="scripts/chapters.js"></script>
+  </head>
 
-</head>
+  <body>
+    <header
+      class="flex justify-between items-center bg-blue-800 py-4 px-5 md:px-10"
+    >
+      <h1 class="text-white font-bold">
+        <a
+          class="font-dm-serif-display font-bold text-white no-underline"
+          href="/"
+        >
+          <img
+            src="./resources/assets/jsloversLogo.png"
+            alt="JSLovers Logo"
+            width="70"
+          />
+        </a>
+      </h1>
+      <nav>
+        <ul class="font-poppins text-xl flex gap-4">
+          <li>
+            <a href="#" class="hover:underline no-underline text-white"
+              >About
+            </a>
+          </li>
 
-<body>
-  <header class="flex justify-between items-center bg-blue-800 py-4 px-5 md:px-10">
-    <h1 class="text-white font-bold">
-      <a class="font-dm-serif-display font-bold text-white no-underline" href="/">
-        <img
-        src="./resources/assets/jsloversLogo.png"
-        alt="JSLovers Logo"
-        width="70"
-        />      </a>
-    </h1>
-    <nav>
-      <ul class="font-poppins text-xl flex gap-4">
-        <li>
-          <a href="#" class="hover:underline no-underline text-white">About
-          </a>
-        </li>
-
-        <li>
-          <a href="#chapters" class="hover:underline no-underline text-white">
-            Chapters
-          </a>
-        </li>
-        <li>
-          <a href="#sponsors" class="hover:underline no-underline text-white">
-            Sponsors
-          </a>
-        </li>
-        <li>
-          <a href="#team" class="hover:underline no-underline text-white">
-            Team
-          </a>
-        </li>
-        <!-- <li>
+          <li>
+            <a href="#chapters" class="hover:underline no-underline text-white">
+              Chapters
+            </a>
+          </li>
+          <li>
+            <a href="#sponsors" class="hover:underline no-underline text-white">
+              Sponsors
+            </a>
+          </li>
+          <li>
+            <a href="#team" class="hover:underline no-underline text-white">
+              Team
+            </a>
+          </li>
+          <!-- <li>
           <a href="#creatives" class="hover:underline no-underline text-white">
             Creatives
           </a>
         </li> -->
-      </ul>
-    </nav>
-  </header>
-  <section class="container mx-auto">
-    <section class="py-5 font-work-sans">
-      <div class="flex flex-row md:px-20 px-5 gap-4">
-        <div class="w-1/2">
-          <p class="mt-4 mb-4">
-            Welcome to <b>JSLovers</b>, the
-            <a href="#">award-winning</a> JavaScript meetup group with
-            chapters in <a href="#">Delhi</a>,<a href="#">Bangalore</a>, and
-            <a href="#">Pune</a>! We are a passionate community of JavaScript
-            enthusiasts who come together to share knowledge, explore the
-            latest trends, and collaborate on exciting projects.
-          </p>
-          <p class="mt-4">
-            Our meetups cover a wide range of topics, from JavaScript
-            fundamentals to advanced frameworks, front-end and back-end
-            development, and everything in between. We believe in the power of
-            networking and learning from fellow enthusiasts, making our
-            meetups a great place to connect with like-minded individuals.
-            JSLovers is proud to have received recognition from Meetup for our
-            outstanding contributions to the tech community.
-          </p>
-          <p class="mt-4">
-            We're also grateful to our sponsors, including Google, Microsoft,
-            and many more, who help make our events even more exciting and
-            informative. Join us for our upcoming events, workshops, and
-            discussions to expand your JavaScript skills and be part of a
-            supportive community that shares your love for coding. Let's code,
-            learn, and grow together with JSLovers!"
-          </p>
+        </ul>
+      </nav>
+    </header>
+    <section class="container mx-auto">
+      <section class="py-5 font-work-sans">
+        <div class="flex flex-row md:px-20 px-5 gap-4">
+          <div class="w-1/2">
+            <p class="mt-4 mb-4">
+              Welcome to <b>JSLovers</b>, the
+              <a href="#">award-winning</a> JavaScript meetup group with
+              chapters in <a href="#">Delhi</a>,<a href="#">Bangalore</a>, and
+              <a href="#">Pune</a>! We are a passionate community of JavaScript
+              enthusiasts who come together to share knowledge, explore the
+              latest trends, and collaborate on exciting projects.
+            </p>
+            <p class="mt-4">
+              Our meetups cover a wide range of topics, from JavaScript
+              fundamentals to advanced frameworks, front-end and back-end
+              development, and everything in between. We believe in the power of
+              networking and learning from fellow enthusiasts, making our
+              meetups a great place to connect with like-minded individuals.
+              JSLovers is proud to have received recognition from Meetup for our
+              outstanding contributions to the tech community.
+            </p>
+            <p class="mt-4">
+              We're also grateful to our sponsors, including Google, Microsoft,
+              and many more, who help make our events even more exciting and
+              informative. Join us for our upcoming events, workshops, and
+              discussions to expand your JavaScript skills and be part of a
+              supportive community that shares your love for coding. Let's code,
+              learn, and grow together with JSLovers!"
+            </p>
+          </div>
+          <div>
+            <h2 class="text-3xl py-3 mt-0 font-bold text-center">
+              Watch Talks About JSLovers
+            </h2>
 
-        </div>
-        <div>
-          <h2 class="text-3xl py-3 mt-0 font-bold text-center">
-            Watch Talks About JSLovers
-          </h2>
-
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <iframe width="100%" height="315" class="rounded-lg" src="https://www.youtube.com/embed/uAlOo3aDzZw"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-            <iframe class="rounded-lg" width="100%" height="315" src="https://www.youtube.com/embed/P_lNs8pBRD8"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <iframe
+                width="100%"
+                height="315"
+                class="rounded-lg"
+                src="https://www.youtube.com/embed/uAlOo3aDzZw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                class="rounded-lg"
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/P_lNs8pBRD8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </section>
-  </section>
-  <section class="py-8 pb-5 font-work-sans bg-[#F37155] text-center" id="connect">
-    <h2 class="font-work-sans font-semibold mb-5 text-3xl">
-      Connect with us
-    </h2>
-    <a href="https://twitter.com/jslovers_del" target="_blank" class="hover:text-white inline-block mr-4">
-      <img src="resources/assets/twitter.png" alt="jslovers twitter logo" class="hover:invert mx-auto" />
-      <p class="mt-2 underline">Twitter</p>
-    </a>
+    <section
+      class="py-8 pb-5 font-work-sans bg-[#F37155] text-center"
+      id="connect"
+    >
+      <h2 class="font-work-sans font-semibold mb-5 text-3xl">
+        Connect with us
+      </h2>
+      <a
+        href="https://twitter.com/jslovers_del"
+        target="_blank"
+        class="hover:text-white inline-block mr-4"
+      >
+        <img
+          src="resources/assets/twitter.png"
+          alt="jslovers twitter logo"
+          class="hover:invert mx-auto"
+        />
+        <p class="mt-2 underline">Twitter</p>
+      </a>
 
-    <a href="https://www.youtube.com/jslovers" target="_blank" class="hover:text-white inline-block mr-4">
-      <img src="resources/assets/yt.png" alt="jslovers youtube logo" class="hover:invert mx-auto" />
-      <p class="mt-2 underline">Youtube</p>
-    </a>
-    
-    <a href="https://discord.com/invite/89QtcRw" target="_blank" class="hover:text-white inline-block">
-      <img src="resources/assets/discord.png" alt="" class="hover:invert mx-auto" />
-      <p class="mt-2 underline">Discord</p>
-    </a>
-  </section>
-  <section class="py-8 pb-5 font-work-sans" id="chapters">
-    <h2 class="font-work-sans text-center font-semibold pl-8 text-3xl">
-      JSLovers's Chapters
-    </h2>
+      <a
+        href="https://www.youtube.com/jslovers"
+        target="_blank"
+        class="hover:text-white inline-block mr-4"
+      >
+        <img
+          src="resources/assets/yt.png"
+          alt="jslovers youtube logo"
+          class="hover:invert mx-auto"
+        />
+        <p class="mt-2 underline">Youtube</p>
+      </a>
 
-    <div id="chaptersContainer" class="flex justify-center items-center mt-8 gap-8 flex-wrap"></div>
+      <a
+        href="https://discord.com/invite/89QtcRw"
+        target="_blank"
+        class="hover:text-white inline-block"
+      >
+        <img
+          src="resources/assets/discord.png"
+          alt=""
+          class="hover:invert mx-auto"
+        />
+        <p class="mt-2 underline">Discord</p>
+      </a>
+    </section>
+    <section class="py-8 pb-5 font-work-sans" id="chapters">
+      <h2 class="font-work-sans text-center font-semibold pl-8 text-3xl">
+        JSLovers Chapters
+      </h2>
 
-  </section>
-  <section class="bg-[#F3F6E6] py-8" id="sponsors">
-    <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
-      Our Sponsors
-    </h2>
-    <p class="text-l text-center">
-      We are looking for venues, goodies, F&B, and speakers sponsors.<br />
-      If you would like to support us please drop a message to
-      <a href="mailto:neha@jslovers.com" class="underline">neha@jslovers.com</a>
-    </p>
+      <div
+        id="chaptersContainer"
+        class="flex justify-center items-center mt-8 gap-8 flex-wrap"
+      ></div>
+    </section>
+    <section class="bg-[#F3F6E6] py-8" id="sponsors">
+      <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
+        Our Sponsors
+      </h2>
+      <p class="text-l text-center">
+        We are looking for venues, goodies, F&B, and speakers sponsors.<br />
+        If you would like to support us please drop a message to
+        <a href="mailto:neha@jslovers.com" class="underline"
+          >neha@jslovers.com</a
+        >
+      </p>
 
-    <div id="sponsorsContainer"></div>
-  </section>
-  <div class="py-8 font-work-sans" id="team">
-    <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
-      Our Team
-    </h2>
-    <div id="teamContainer"></div>
+      <div id="sponsorsContainer"></div>
+    </section>
+    <div class="py-8 font-work-sans" id="team">
+      <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
+        Our Team
+      </h2>
+      <div id="teamContainer"></div>
+    </div>
+    <div class="py-8 font-work-sans" id="creatives">
+      <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
+        Social Creatives
+      </h2>
+      <p class="flex items-center p-10">
+        <a
+          class="font-bold border border-1 p-10"
+          href="./docs/logo-guidelines.zip"
+          >JSLovers Logo Guideline</a
+        >
+      </p>
 
-  </div>
-  <div class="py-8 font-work-sans" id="creatives">
-    <h2 class="font-work-sans font-semibold pl-8 text-2xl text-center">
-      Social Creatives
-    </h2>
-    <p class="flex items-center p-10">
-      <a class="font-bold border border-1 p-10" href="./docs/logo-guidelines.zip">JSLovers Logo Guideline</a>
-    </p>
-
-    
-    <!-- <a href="">Slides</a>
+      <!-- <a href="">Slides</a>
     <a href="">Posters</a> -->
-  </div>
+    </div>
 
-  <footer class="text-center py-4 text-small bg-[#d5e1f5]">
-    Copyright 2023-2024 |
-    <a href="termsandcondition.html" class="underline">Terms and Conditions</a>
-    |
-    <a href="codeofconduct.html" target="_blank" class="underline">Code of conduct</a>
-  </footer>
-</body>
-
+    <footer class="text-center py-4 text-small bg-[#d5e1f5]">
+      Copyright 2023-2024 |
+      <a href="termsandcondition.html" class="underline"
+        >Terms and Conditions</a
+      >
+      |
+      <a href="codeofconduct.html" target="_blank" class="underline"
+        >Code of conduct</a
+      >
+    </footer>
+  </body>
 </html>

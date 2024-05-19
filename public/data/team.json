@@ -117,6 +117,19 @@
                 "github": "https://www.linkedin.com/in/pujarini-jena/"
             },
              "city": "Bangalore"
+        },
+        {
+            "id": 10,
+            "name": "Vignesh Murugan",
+            "role": "Meetup Organizer",
+            "bio": "Former Electrical Engineer who followed my passion into Software Development. Loves to code, fueled by coffee, community & memes.",
+            "image": "/public/resources/assets/profile-images/vignesh-murugan.jpg",
+            "socialLinks": {
+                "x": "https://twitter.com/Web3Vicky",
+                "linkedin": "https://www.linkedin.com/in/webdev-vignesh/",
+                "github": "https://github.com/webdev-vignesh"
+            },
+            "city": "Chennai"
         }
     ]
 }

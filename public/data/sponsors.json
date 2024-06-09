@@ -65,6 +65,12 @@
         "name": "NonStop io Technologies",
         "image": "./resources/assets/nonstopio.png",
         "website": "https://www.nonstopio.com/"
+      },
+      {
+        "id": 12,
+        "name": "Talentship",
+        "image": "./resources/assets/talentship.png",
+        "website": "https://talentship.io/en/"
       }
     ]
   }

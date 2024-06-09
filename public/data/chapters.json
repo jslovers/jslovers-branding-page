@@ -29,6 +29,11 @@
       "name": "Hyderabad",
       "image": "resources/assets/hyderabad.png",
       "url": "https://www.meetup.com/jslovers-hyderabad/"
+    },
+    {
+      "name": "Chennai",
+      "image": "resources/assets/chennai.png",
+      "url": "https://guild.host/jslovers-chennai"
     }
   ]
 }

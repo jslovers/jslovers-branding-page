@@ -66,19 +66,6 @@
             "city": "Bengaluru"
         },
         {
-            "id": 6,
-            "name": "Yashraj Nayak",
-            "role": "Meetup Organizer",
-            "bio": "Developer turned community professional. Yashraj has been immersed in the 'people' side of technology, building and growing developer communities and programs in the Asia-Pacific region.",
-            "image": "./resources/assets/profile-images/yashraj-nayak.jpeg",
-            "socialLinks": {
-                "x": "https://twitter.com/yashrajnayak",
-                "linkedin": "https://www.linkedin.com/in/yashrajnayak",
-                "github": "https://github.com/yashrajnayak"
-            },
-            "city": "Bengaluru"
-        },
-        {
             "id": 7,
             "name": "Lakshay Manchanda",
             "role": "Meetup Organizer",
@@ -103,27 +90,13 @@
                 "github": "https://github.com/PreetiW"
             },
             "city": "Pune"
-            },
-        {
-           
-            "id": 9,
-            "name": "Pujarini Jena",
-            "role": "Meetup Organizer",
-            "bio": "An Accidental Developer who loves to build user interfaces div by div.",
-            "image": "/public/resources/assets/pujarini.png",
-            "socialLinks": {
-                "x": "https://twitter.com/pujarini_codeit",
-                "linkedin": "https://www.linkedin.com/in/pujarini-jena/",
-                "github": "https://www.linkedin.com/in/pujarini-jena/"
-            },
-             "city": "Bangalore"
         },
         {
             "id": 10,
             "name": "Vignesh Murugan",
             "role": "Meetup Organizer",
             "bio": "Former Electrical Engineer who followed my passion into Software Development. Loves to code, fueled by coffee, community & memes.",
-            "image": "/public/resources/assets/profile-images/vignesh-murugan.jpg",
+            "image": "./resources/assets/profile-images/vignesh-murugan.jpg",
             "socialLinks": {
                 "x": "https://twitter.com/Web3Vicky",
                 "linkedin": "https://www.linkedin.com/in/webdev-vignesh/",

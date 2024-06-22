@@ -71,6 +71,12 @@
         "name": "Talentship",
         "image": "./resources/assets/talentship.png",
         "website": "https://talentship.io/en/"
+      },
+      {
+        "id": 13,
+        "name": "Ariqt International",
+        "image": "./resources/assets/ariqt-international.jpeg",
+        "website": "https://www.ariqt.com"
       }
     ]
   }

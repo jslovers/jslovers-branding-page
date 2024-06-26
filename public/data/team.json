@@ -141,6 +141,19 @@
                 "github": "https://github.com/ojas-elawadhi"
             },
             "city": "Delhi"
-        }        
+        },
+        {
+            "id": 14,
+            "name": "Divyansh Gupta",
+            "role": "Meetup Organizer",
+            "bio": "Technical Architect",
+            "image": "https://ibb.co/F8G6gFt",
+            "socialLinks": {
+                "x":  "https://twitter.com/iamdivyansh",
+                "linkedin": "https://www.linkedin.com/in/divyansh-gupta-0750984a",
+                "github": "https://github.com/divyanshgupta"
+            },
+            "city": "Ghaziabad"
+        }     
     ]
 }

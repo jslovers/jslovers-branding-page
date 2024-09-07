@@ -66,20 +66,7 @@
             "city": "Bengaluru"
         },
         {
-            "id": 7,
-            "name": "Lakshay Manchanda",
-            "role": "Meetup Organizer",
-            "bio": "Full-stack developer bringing ideas to life, from front-end design to back-end functionality.",
-            "image": "./resources/assets/profile-images/lakshay.jpg",
-            "socialLinks": {
-                "x": "https://twitter.com/lakshayman2000",
-                "linkedin": "https://www.linkedin.com/in/lakshayman/",
-                "github": "https://github.com/lakshayman"
-            },
-            "city": "Delhi"
-        },
-        {
-            "id": 8,
+            "id": 6,
             "name": "Preeti Wadhwani",
             "role": "Meetup Organizer",
             "bio": "Exploring JavaScript these days | Senior Software Engineer @Red Hat | Coffee, Meet-up and Conference Lover | Expressing emotions via GIFs",
@@ -92,7 +79,7 @@
             "city": "Pune"
         },
         {
-            "id": 10,
+            "id": 7,
             "name": "Vignesh Murugan",
             "role": "Meetup Organizer",
             "bio": "Former Electrical Engineer who followed my passion into Software Development. Loves to code, fueled by coffee, community & memes.",
@@ -103,57 +90,6 @@
                 "github": "https://github.com/webdev-vignesh"
             },
             "city": "Chennai"
-        },
-        {
-            "id": 11,
-            "name": "Gurjot Singh",
-            "role": "Meetup Organizer",
-            "bio": "Full-Stack Software Developer crafting scalable, user-centric applications.",
-            "image": "https://ik.imagekit.io/fb6puhbi5/jslovers/gurjot-singh-jslovers-member.png?updatedAt=latest",
-            "socialLinks": {
-                "x": "https://twitter.com/Singhlify",
-                "linkedin": "https://www.linkedin.com/in/Singhlify",
-                "github": "https://github.com/Singhlify"
-            },
-            "city": "Delhi"
-        },
-        {
-            "id": 12,
-            "name": "Minal Ahuja",
-            "role": "Meetup Organizer",
-            "bio": "Software Engineer",
-            "image": "https://ik.imagekit.io/imminal35/Minal's%20Display%20Image?updatedAt=1719154312820",
-            "socialLinks": {
-                "x":  "https://twitter.com/imminal35",
-                "linkedin": "https://www.linkedin.com/in/imminal35/",
-                "github": "https://github.com/imminal35"
-            },
-            "city": "Panipat"
-        },{
-            "id": 13,
-            "name": "Ojas Elawadhi",
-            "role": "Meetup Organizer",
-            "bio": "Software Engineer",
-            "image": "https://ik.imagekit.io/ojas/IMG_20240516_015402_419.jpg?updatedAt=1719155897727",
-            "socialLinks": {
-                "x":  "https://x.com/Ojas_elawadhi/",
-                "linkedin": "https://www.linkedin.com/in/ojas-elawadhi/",
-                "github": "https://github.com/ojas-elawadhi"
-            },
-            "city": "Delhi"
-        },
-        {
-            "id": 14,
-            "name": "Divyansh Gupta",
-            "role": "Meetup Organizer",
-            "bio": "Technical Architect",
-            "image": "https://ik.imagekit.io/cctsihhrr/9863508D-7A10-4F92-8432-3CC8F1E70AAD.jpeg",
-            "socialLinks": {
-                "x":  "https://twitter.com/iamdivyansh",
-                "linkedin": "https://www.linkedin.com/in/divyansh-gupta-0750984a",
-                "github": "https://github.com/divyanshgupta"
-            },
-            "city": "Ghaziabad"
-        }     
+        }    
     ]
 }

@@ -71,6 +71,12 @@
         "name": "Talentship",
         "image": "./resources/assets/talentship.png",
         "website": "https://talentship.io/en/"
+      },
+      {
+        "id": 13,
+        "name": "Springer Nature",
+        "image": "./resources/assets/springer_nature.png",
+        "website": "https://group.springernature.com/gp/group"
       }
     ]
   }

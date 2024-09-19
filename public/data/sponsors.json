@@ -74,6 +74,12 @@
       },
       {
         "id": 13,
+        "name": "Springer Nature",
+        "image": "./resources/assets/springer_nature.png",
+        "website": "https://group.springernature.com/gp/group"
+      },
+      {
+        "id": 14,
         "name": "Ariqt International",
         "image": "./resources/assets/ariqt-international.jpeg",
         "website": "https://www.ariqt.com"

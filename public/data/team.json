@@ -66,20 +66,7 @@
             "city": "Bengaluru"
         },
         {
-            "id": 7,
-            "name": "Lakshay Manchanda",
-            "role": "Meetup Organizer",
-            "bio": "Full-stack developer bringing ideas to life, from front-end design to back-end functionality.",
-            "image": "./resources/assets/profile-images/lakshay.jpg",
-            "socialLinks": {
-                "x": "https://twitter.com/lakshayman2000",
-                "linkedin": "https://www.linkedin.com/in/lakshayman/",
-                "github": "https://github.com/lakshayman"
-            },
-            "city": "Delhi"
-        },
-        {
-            "id": 8,
+            "id": 6,
             "name": "Preeti Wadhwani",
             "role": "Meetup Organizer",
             "bio": "Exploring JavaScript these days | Senior Software Engineer @Red Hat | Coffee, Meet-up and Conference Lover | Expressing emotions via GIFs",
@@ -92,7 +79,7 @@
             "city": "Pune"
         },
         {
-            "id": 10,
+            "id": 7,
             "name": "Vignesh Murugan",
             "role": "Meetup Organizer",
             "bio": "Former Electrical Engineer who followed my passion into Software Development. Loves to code, fueled by coffee, community & memes.",
@@ -103,6 +90,6 @@
                 "github": "https://github.com/webdev-vignesh"
             },
             "city": "Chennai"
-        }
+        }    
     ]
 }

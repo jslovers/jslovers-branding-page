@@ -23,7 +23,7 @@ jobs:
 
       - name: Run Node.js Script
         run: |
-          node scripts/script.js
+          node scripts/team.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: ${{ github.event.repository.owner.login }} # Updated to use GitHub event data

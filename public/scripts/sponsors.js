@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             const container = document.getElementById('sponsorsContainer');
             // Ensure the container has some TailwindCSS utility classes for layout
-            container.className = "grid grid-cols-1 md:grid-cols-4 gap-4 p-4";
+            container.className = "container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4 p-4";
             
             data.sponsors.forEach(sponsor => {
                 // Create a container for each sponsor with TailwindCSS classes
